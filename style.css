@@ -1,0 +1,115 @@
+
+/*默认样式修改*/
+*{
+	margin: 0;
+	padding:  0;
+}
+ul{
+	list-style: none;
+}
+body{
+	background-color: #ffffff;
+	font-family: "Hiragino Kaku Gothic ProN", "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", STHeiti;
+	font-size: 14px;
+}
+a{
+	text-decoration: none;
+
+}
+
+/*通用样式*/
+.head{
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+	height: 60px;
+	line-height: 60px;
+	width: 100%;
+	background-color: #000;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 0 20px;
+}
+.head a{
+	margin-right: 25px;
+	color: #fff;
+}
+.title h1{
+	margin: 80px 0 40px 0;
+	text-align: center;
+	font-size: 42px;
+	font-weight: normal;
+}
+.main{
+	margin: 0 auto;
+	width: 1100px;
+}
+.history {
+	background: url(images/line.gif) repeat-y 187px 0;
+	overflow: hidden;
+	position: relative;
+}
+.years{
+	position: relative;
+	z-index: 99;
+}
+.years h2.first{
+	background: url(images/clock.gif) #fff no-repeat 158px 0;
+	height: 60px;
+	font-size: 25px;
+	font-family: 微软雅黑;
+	font-weight: normal;
+	padding-left: 45px;
+	margin-bottom: 40px;
+}
+.years h2{
+	height: 60px;
+	font-size: 25px;
+	font-family: 微软雅黑;
+	font-weight: normal;
+	padding-left: 45px;
+	margin-bottom: 40px;
+}
+.years-title{
+	color: #00bbff;
+	display: inline-block;
+	zoom: 1;
+	background: url(images/triangle.gif) no-repeat right 50%;
+	padding-right: 17px;
+	margin: 21px 97px 0 0;
+}
+.point{
+	background: url(images/point.gif) no-repeat 181px 0;
+	padding-bottom: 50px;
+	zoom: 1;
+	display: block;
+}
+.month{
+	color: #1db702;
+	display: inline-block;
+	text-align: right;
+	width: 160px;
+}
+
+.year {
+	color: #a8dda3;
+	font-size: 12px;
+}
+.content {
+	font-size: 25px;
+	margin-left: 200px;
+	margin-top: -40px;
+	padding-left: 30px;
+}
+.detail {
+	display: block;
+	color: #787878;
+	font-size: 14px;
+	padding: 5px 0;
+}
+.demo{
+	font-size: 20px;
+	padding-left: 20px;
+	display: none;
+}
